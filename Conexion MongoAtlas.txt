@@ -1,0 +1,4 @@
+user: jear2
+pass: MfmhEd4y2o0tTgc1
+
+mongodb+srv://jear2:MfmhEd4y2o0tTgc1@cluster0.m4ygnbh.mongodb.net/?retryWrites=true&w=majority

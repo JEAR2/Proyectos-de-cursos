@@ -1,0 +1,4 @@
+Se debe tener la tool de EF instalada primero
+- dotnet tool install -g dotnet-ef
+- dotnet ef migrations add Init
+- dotnet ef database update

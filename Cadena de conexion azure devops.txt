@@ -1,0 +1,1 @@
+Endpoint=sb://sofka-bot.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=GhA4fVxQlpjornT37rZzXpOH6MKsOqPgCQkHGe1FFNU=
