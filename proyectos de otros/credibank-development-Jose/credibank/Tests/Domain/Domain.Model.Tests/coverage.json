@@ -1,0 +1,583 @@
+{
+  "Domain.Model.dll": {
+    "C:\\Users\\jose.guerrero\\Documents\\programming\\c#\\projects\\credibank\\credibank\\Src\\Domain\\Domain.Model\\Entities\\Cliente.cs": {
+      "Domain.Model.Entities.Cliente": {
+        "System.String Domain.Model.Entities.Cliente::get_Nombre()": {
+          "Lines": {
+            "10": 2
+          },
+          "Branches": []
+        },
+        "System.String Domain.Model.Entities.Cliente::get_Apellido()": {
+          "Lines": {
+            "11": 2
+          },
+          "Branches": []
+        },
+        "System.String Domain.Model.Entities.Cliente::get_CorreoElectronico()": {
+          "Lines": {
+            "12": 2
+          },
+          "Branches": []
+        },
+        "System.String Domain.Model.Entities.Cliente::get_CedulaDeCiudadania()": {
+          "Lines": {
+            "13": 2
+          },
+          "Branches": []
+        },
+        "System.String Domain.Model.Entities.Cliente::get_NumeroDeCelular()": {
+          "Lines": {
+            "14": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IList`1<Domain.Model.Entities.Credito> Domain.Model.Entities.Cliente::get_Creditos()": {
+          "Lines": {
+            "15": 13
+          },
+          "Branches": []
+        },
+        "Domain.Model.Entities.Credito Domain.Model.Entities.Cliente::SolicitarCredito(Domain.Model.Entities.Credito,System.Decimal)": {
+          "Lines": {
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "21": 2,
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "28": 2,
+            "30": 2,
+            "31": 2
+          },
+          "Branches": []
+        },
+        "Domain.Model.Entities.Credito Domain.Model.Entities.Cliente::PagarCuotaDeCredito(System.String,Domain.Model.Entities.Pago)": {
+          "Lines": {
+            "34": 1,
+            "35": 2,
+            "36": 1,
+            "37": 1,
+            "38": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\jose.guerrero\\Documents\\programming\\c#\\projects\\credibank\\credibank\\Src\\Domain\\Domain.Model\\Entities\\Credito.cs": {
+      "Domain.Model.Entities.Credito": {
+        "System.Decimal Domain.Model.Entities.Credito::get_Monto()": {
+          "Lines": {
+            "10": 17
+          },
+          "Branches": []
+        },
+        "Domain.Model.Entities.EstadosDeCredito Domain.Model.Entities.Credito::get_Estado()": {
+          "Lines": {
+            "11": 14
+          },
+          "Branches": []
+        },
+        "System.Int32 Domain.Model.Entities.Credito::get_PlazoEnMeses()": {
+          "Lines": {
+            "12": 19
+          },
+          "Branches": []
+        },
+        "System.Decimal Domain.Model.Entities.Credito::get_MontoTotalDeIntereses()": {
+          "Lines": {
+            "13": 12
+          },
+          "Branches": []
+        },
+        "System.Decimal Domain.Model.Entities.Credito::get_MontoPorCuota()": {
+          "Lines": {
+            "14": 10
+          },
+          "Branches": []
+        },
+        "System.Int32 Domain.Model.Entities.Credito::get_CuotasRestantes()": {
+          "Lines": {
+            "15": 20
+          },
+          "Branches": []
+        },
+        "System.DateTime Domain.Model.Entities.Credito::get_FechaDeSolicitud()": {
+          "Lines": {
+            "16": 8
+          },
+          "Branches": []
+        },
+        "System.DateTime Domain.Model.Entities.Credito::get_FechaDeCancelacion()": {
+          "Lines": {
+            "17": 8
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IList`1<Domain.Model.Entities.Pago> Domain.Model.Entities.Credito::get_PagosRealizados()": {
+          "Lines": {
+            "18": 14
+          },
+          "Branches": []
+        },
+        "System.Decimal Domain.Model.Entities.Credito::CalcularMontoTotalDeIntereses(System.Decimal)": {
+          "Lines": {
+            "21": 5,
+            "23": 5,
+            "24": 5,
+            "25": 5,
+            "26": 5,
+            "27": 5,
+            "28": 5
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Model.Entities.Credito::PagarCuota(Domain.Model.Entities.Pago)": {
+          "Lines": {
+            "31": 3,
+            "32": 3,
+            "33": 3,
+            "34": 3
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Model.Entities.Credito::CambiarEstado(Domain.Model.Entities.EstadosDeCredito)": {
+          "Lines": {
+            "37": 1,
+            "38": 1,
+            "39": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\jose.guerrero\\Documents\\programming\\c#\\projects\\credibank\\credibank\\Src\\Domain\\Domain.Model\\Entities\\Pago.cs": {
+      "Domain.Model.Entities.Pago": {
+        "System.Decimal Domain.Model.Entities.Pago::get_Monto()": {
+          "Lines": {
+            "9": 3
+          },
+          "Branches": []
+        },
+        "System.Int32 Domain.Model.Entities.Pago::get_CuotasACancelar()": {
+          "Lines": {
+            "10": 8
+          },
+          "Branches": []
+        },
+        "System.DateTime Domain.Model.Entities.Pago::get_FechaDeCancelacion()": {
+          "Lines": {
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\jose.guerrero\\Documents\\programming\\c#\\projects\\credibank\\credibank\\Src\\Domain\\Domain.Model\\Entities\\Base\\EntidadBase.cs": {
+      "Domain.Model.Entities.Base.EntidadBase": {
+        "System.String Domain.Model.Entities.Base.EntidadBase::get_Id()": {
+          "Lines": {
+            "5": 14
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Helpers.dll": {
+    "C:\\Users\\jose.guerrero\\Documents\\programming\\c#\\projects\\credibank\\Helpers\\DomainBuilders\\Pagos\\PagoTestBuilder.cs": {
+      "Helpers.Domain.Pagos.PagoTestBuilder": {
+        "System.String Helpers.Domain.Pagos.PagoTestBuilder::get_Id()": {
+          "Lines": {
+            "7": 3
+          },
+          "Branches": []
+        },
+        "System.Decimal Helpers.Domain.Pagos.PagoTestBuilder::get_Monto()": {
+          "Lines": {
+            "8": 4
+          },
+          "Branches": []
+        },
+        "System.Int32 Helpers.Domain.Pagos.PagoTestBuilder::get_CuotasACancelar()": {
+          "Lines": {
+            "9": 6
+          },
+          "Branches": []
+        },
+        "System.DateTime Helpers.Domain.Pagos.PagoTestBuilder::get_FechaDeCancelacion()": {
+          "Lines": {
+            "10": 5
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Pagos.PagoTestBuilder Helpers.Domain.Pagos.PagoTestBuilder::Builder()": {
+          "Lines": {
+            "12": 3
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Pagos.PagoTestBuilder Helpers.Domain.Pagos.PagoTestBuilder::ConId(System.String)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Pagos.PagoTestBuilder Helpers.Domain.Pagos.PagoTestBuilder::ConMonto(System.Decimal)": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Pagos.PagoTestBuilder Helpers.Domain.Pagos.PagoTestBuilder::ConCuotasACancelar(System.Int32)": {
+          "Lines": {
+            "27": 3,
+            "28": 3,
+            "29": 3,
+            "30": 3
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Pagos.PagoTestBuilder Helpers.Domain.Pagos.PagoTestBuilder::ConFechaDeCancelacion(System.DateTime)": {
+          "Lines": {
+            "33": 2,
+            "34": 2,
+            "35": 2,
+            "36": 2
+          },
+          "Branches": []
+        },
+        "Domain.Model.Entities.Pago Helpers.Domain.Pagos.PagoTestBuilder::Build()": {
+          "Lines": {
+            "38": 3,
+            "39": 3,
+            "40": 3,
+            "41": 3,
+            "42": 3,
+            "43": 3,
+            "44": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\jose.guerrero\\Documents\\programming\\c#\\projects\\credibank\\Helpers\\DomainBuilders\\Creditos\\CreditoTestBuilder.cs": {
+      "Helpers.Domain.Creditos.CreditoTestBuilder": {
+        "System.String Helpers.Domain.Creditos.CreditoTestBuilder::get_Id()": {
+          "Lines": {
+            "7": 9
+          },
+          "Branches": []
+        },
+        "System.Decimal Helpers.Domain.Creditos.CreditoTestBuilder::get_Monto()": {
+          "Lines": {
+            "8": 15
+          },
+          "Branches": []
+        },
+        "Domain.Model.Entities.EstadosDeCredito Helpers.Domain.Creditos.CreditoTestBuilder::get_Estado()": {
+          "Lines": {
+            "9": 11
+          },
+          "Branches": []
+        },
+        "System.Int32 Helpers.Domain.Creditos.CreditoTestBuilder::get_PlazoEnMeses()": {
+          "Lines": {
+            "10": 15
+          },
+          "Branches": []
+        },
+        "System.Decimal Helpers.Domain.Creditos.CreditoTestBuilder::get_MontoTotalDeIntereses()": {
+          "Lines": {
+            "11": 8
+          },
+          "Branches": []
+        },
+        "System.Decimal Helpers.Domain.Creditos.CreditoTestBuilder::get_MontoPorCuota()": {
+          "Lines": {
+            "12": 8
+          },
+          "Branches": []
+        },
+        "System.Int32 Helpers.Domain.Creditos.CreditoTestBuilder::get_CuotasRestantes()": {
+          "Lines": {
+            "13": 12
+          },
+          "Branches": []
+        },
+        "System.DateTime Helpers.Domain.Creditos.CreditoTestBuilder::get_FechaDeSolicitud()": {
+          "Lines": {
+            "14": 10
+          },
+          "Branches": []
+        },
+        "System.DateTime Helpers.Domain.Creditos.CreditoTestBuilder::get_FechaDeCancelacion()": {
+          "Lines": {
+            "15": 8
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IList`1<Domain.Model.Entities.Pago> Helpers.Domain.Creditos.CreditoTestBuilder::get_PagosRealizados()": {
+          "Lines": {
+            "16": 11
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Creditos.CreditoTestBuilder Helpers.Domain.Creditos.CreditoTestBuilder::Builder()": {
+          "Lines": {
+            "19": 8,
+            "20": 8,
+            "21": 8
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Creditos.CreditoTestBuilder Helpers.Domain.Creditos.CreditoTestBuilder::ConId(System.String)": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Creditos.CreditoTestBuilder Helpers.Domain.Creditos.CreditoTestBuilder::ConMonto(System.Decimal)": {
+          "Lines": {
+            "30": 7,
+            "31": 7,
+            "32": 7,
+            "33": 7
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Creditos.CreditoTestBuilder Helpers.Domain.Creditos.CreditoTestBuilder::ConEstado(Domain.Model.Entities.EstadosDeCredito)": {
+          "Lines": {
+            "36": 3,
+            "37": 3,
+            "38": 3,
+            "39": 3
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Creditos.CreditoTestBuilder Helpers.Domain.Creditos.CreditoTestBuilder::ConPlazoEnMeses(System.Int32)": {
+          "Lines": {
+            "42": 7,
+            "43": 7,
+            "44": 7,
+            "45": 7
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Creditos.CreditoTestBuilder Helpers.Domain.Creditos.CreditoTestBuilder::ConMontoTotalDeIntereses(System.Decimal)": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Creditos.CreditoTestBuilder Helpers.Domain.Creditos.CreditoTestBuilder::ConMontoPorCuota(System.Decimal)": {
+          "Lines": {
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Creditos.CreditoTestBuilder Helpers.Domain.Creditos.CreditoTestBuilder::ConCuotasRestantes(System.Int32)": {
+          "Lines": {
+            "60": 4,
+            "61": 4,
+            "62": 4,
+            "63": 4
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Creditos.CreditoTestBuilder Helpers.Domain.Creditos.CreditoTestBuilder::ConFechaDeSolicitud(System.DateTime)": {
+          "Lines": {
+            "66": 2,
+            "67": 2,
+            "68": 2,
+            "69": 2
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Creditos.CreditoTestBuilder Helpers.Domain.Creditos.CreditoTestBuilder::ConFechaDeCancelacion(System.DateTime)": {
+          "Lines": {
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Creditos.CreditoTestBuilder Helpers.Domain.Creditos.CreditoTestBuilder::ConPagosRealizados(System.Collections.Generic.IList`1<Domain.Model.Entities.Pago>)": {
+          "Lines": {
+            "78": 3,
+            "79": 3,
+            "80": 3,
+            "81": 3
+          },
+          "Branches": []
+        },
+        "Domain.Model.Entities.Credito Helpers.Domain.Creditos.CreditoTestBuilder::Build()": {
+          "Lines": {
+            "83": 8,
+            "84": 8,
+            "85": 8,
+            "86": 8,
+            "87": 8,
+            "88": 8,
+            "89": 8,
+            "90": 8,
+            "91": 8,
+            "92": 8,
+            "93": 8,
+            "94": 8,
+            "95": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\jose.guerrero\\Documents\\programming\\c#\\projects\\credibank\\Helpers\\DomainBuilders\\Clientes\\ClienteTestBuilder.cs": {
+      "Helpers.Domain.Clientes.ClienteTestBuilder": {
+        "System.String Helpers.Domain.Clientes.ClienteTestBuilder::get_Id()": {
+          "Lines": {
+            "7": 2
+          },
+          "Branches": []
+        },
+        "System.String Helpers.Domain.Clientes.ClienteTestBuilder::get_Nombre()": {
+          "Lines": {
+            "8": 4
+          },
+          "Branches": []
+        },
+        "System.String Helpers.Domain.Clientes.ClienteTestBuilder::get_Apellido()": {
+          "Lines": {
+            "9": 4
+          },
+          "Branches": []
+        },
+        "System.String Helpers.Domain.Clientes.ClienteTestBuilder::get_CorreoElectronico()": {
+          "Lines": {
+            "10": 2
+          },
+          "Branches": []
+        },
+        "System.String Helpers.Domain.Clientes.ClienteTestBuilder::get_CedulaDeCiudadania()": {
+          "Lines": {
+            "11": 2
+          },
+          "Branches": []
+        },
+        "System.String Helpers.Domain.Clientes.ClienteTestBuilder::get_NumeroDeCelular()": {
+          "Lines": {
+            "12": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IList`1<Domain.Model.Entities.Credito> Helpers.Domain.Clientes.ClienteTestBuilder::get_Creditos()": {
+          "Lines": {
+            "13": 4
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Clientes.ClienteTestBuilder Helpers.Domain.Clientes.ClienteTestBuilder::Builder()": {
+          "Lines": {
+            "15": 2
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Clientes.ClienteTestBuilder Helpers.Domain.Clientes.ClienteTestBuilder::ConId(System.String)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Clientes.ClienteTestBuilder Helpers.Domain.Clientes.ClienteTestBuilder::ConNombre(System.String)": {
+          "Lines": {
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Clientes.ClienteTestBuilder Helpers.Domain.Clientes.ClienteTestBuilder::ConApellido(System.String)": {
+          "Lines": {
+            "30": 2,
+            "31": 2,
+            "32": 2,
+            "33": 2
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Clientes.ClienteTestBuilder Helpers.Domain.Clientes.ClienteTestBuilder::ConCorreoElectronico(System.String)": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Clientes.ClienteTestBuilder Helpers.Domain.Clientes.ClienteTestBuilder::ConCedulaDeCiudadania(System.String)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Clientes.ClienteTestBuilder Helpers.Domain.Clientes.ClienteTestBuilder::ConNumeroDeCelular(System.String)": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": []
+        },
+        "Helpers.Domain.Clientes.ClienteTestBuilder Helpers.Domain.Clientes.ClienteTestBuilder::ConCreditos(System.Collections.Generic.IList`1<Domain.Model.Entities.Credito>)": {
+          "Lines": {
+            "54": 2,
+            "55": 2,
+            "56": 2,
+            "57": 2
+          },
+          "Branches": []
+        },
+        "Domain.Model.Entities.Cliente Helpers.Domain.Clientes.ClienteTestBuilder::Build()": {
+          "Lines": {
+            "59": 2,
+            "60": 2,
+            "61": 2,
+            "62": 2,
+            "63": 2,
+            "64": 2,
+            "65": 2,
+            "66": 2,
+            "67": 2,
+            "68": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

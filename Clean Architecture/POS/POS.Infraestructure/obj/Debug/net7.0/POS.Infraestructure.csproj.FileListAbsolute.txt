@@ -1,0 +1,17 @@
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net7.0\POS.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net7.0\POS.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net7.0\POS.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net7.0\POS.Infraestructure.AssemblyInfo.cs
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net7.0\POS.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\bin\Debug\net7.0\POS.Infraestructure.deps.json
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\bin\Debug\net7.0\POS.Infraestructure.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\bin\Debug\net7.0\POS.Infraestructure.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\bin\Debug\net7.0\POS.Domain.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\bin\Debug\net7.0\POS.Utilities.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\bin\Debug\net7.0\POS.Domain.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\bin\Debug\net7.0\POS.Utilities.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net7.0\POS.Infraestructure.csproj.CopyComplete
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net7.0\POS.Infraestructure.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net7.0\refint\POS.Infraestructure.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net7.0\POS.Infraestructure.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net7.0\ref\POS.Infraestructure.dll

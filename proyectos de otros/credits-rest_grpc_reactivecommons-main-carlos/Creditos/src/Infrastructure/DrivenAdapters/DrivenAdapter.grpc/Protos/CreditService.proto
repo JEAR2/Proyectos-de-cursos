@@ -1,0 +1,68 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Service.GrpcCreditService";
+
+package DrivenAdapter.grpc.Service;
+
+// The greeting service definition.
+service CreditService {
+  // Sends a greeting
+  rpc GetAllUsers (EmptyRequest) returns (UsersListReply);
+  rpc CreateUser(User) returns (User);
+  rpc AssignCredit(NewCredit) returns (User);
+  rpc GetUserCredits(UserId) returns (User);
+  rpc GetCreditState(UserAndCreditId) returns (User);
+  rpc PayInstallment(CreditId) returns (User);
+}
+
+// The request message containing the user's name.
+message EmptyRequest {
+
+}
+
+message UserId{
+    string id = 1;
+}
+
+message CreditId{
+    string id = 1;
+}
+
+message UserAndCreditId{
+    string userId = 1;
+    string creditId = 2;
+}
+
+message NewCredit{
+    double CapitalBase = 1;
+    double EffectiveAnnualInterestRate = 2;
+    int32 NumberOfInstallments = 3;
+    string UserId = 4;
+}
+
+message Credit {
+    string Id = 1;
+    double CapitalBase = 2;
+    double CapitalDebt = 3;
+    double EffectiveAnnualInterestRate = 4;
+    double InstallmentAmount = 5;
+    int32 NumberOfInstallments = 6;
+    bool IsActive = 7;
+    string UserId = 8;
+}
+
+message Credits{
+    repeated Credit credits = 1;
+}
+
+message User {
+  string Id = 1;
+  string Name = 2;
+  string Email = 3;
+  Credits credits = 4; 
+}
+
+message UsersListReply {
+    repeated User users = 1;
+}
+

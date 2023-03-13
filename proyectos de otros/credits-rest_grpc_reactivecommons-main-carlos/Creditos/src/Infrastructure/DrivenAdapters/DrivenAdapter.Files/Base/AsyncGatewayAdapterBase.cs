@@ -1,0 +1,89 @@
+﻿using Domain.UseCase.Common;
+using Helpers.ObjectsUtils;
+using Microsoft.Extensions.Options;
+using org.reactivecommons.api.domain;
+using org.reactivecommons.api;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+
+namespace DrivenAdapter.ServiceBus.Base
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    public class AsyncGatewayAdapterBase
+    {
+        private readonly IManageEventsUseCase _manageEventsUseCase;
+        private readonly IOptions<ConfiguradorAppSettings> _appSettings;
+
+        public AsyncGatewayAdapterBase(IManageEventsUseCase manageEventsUseCase,
+            IOptions<ConfiguradorAppSettings> appSettings)
+        {
+            _manageEventsUseCase = manageEventsUseCase;
+            _appSettings = appSettings;
+        }
+
+
+        public async Task HandleSendCommandAsync<TData>(IDirectAsyncGateway<TData> directAsyncGateway, string id, TData data, string queue, string commandName,
+            MethodBase methodBase, [CallerMemberName] string? callerMemberName = null)
+        {
+            Command<TData> command = new(commandName, id, data);
+
+            string eventName = GetLogEventName(methodBase, callerMemberName);
+            string message = $"[Id] : [{id}] - [Event] : [{eventName}]";
+
+            try
+            {
+                _manageEventsUseCase.ConsoleDebugLog($"Inicia envío de comando: {message}. Data: {data}");
+
+                await directAsyncGateway.SendCommand(queue, command);
+
+                _manageEventsUseCase.ConsoleDebugLog($"comando enviado Exitosamente: {message}. Data: {data}");
+            }
+            catch (Exception ex)
+            {
+                _manageEventsUseCase.ConsoleErrorLog($"Error al enviar el comando: {message}. Data: {data}", ex);
+            }
+        }
+
+        public async Task HandleSendEventAsync<TData>(IDirectAsyncGateway<TData> directAsyncGateway, string id, TData data, string topic, string eventName,
+            MethodBase methodBase, [CallerMemberName] string? callerMemberName = null)
+        {
+
+            DomainEvent<TData> domainEvent = new(eventName,id,data);
+
+            
+            string message = $"[Id] : [{id}] - [Event] : [{GetLogEventName(methodBase, callerMemberName)}]";
+
+            try
+            {
+                _manageEventsUseCase.ConsoleDebugLog($"Inicia envío de evento: {message}. Data: {data}");
+
+                await directAsyncGateway.SendEvent(topic, domainEvent);
+
+                _manageEventsUseCase.ConsoleDebugLog($"Evento enviado Exitosamente: {message}. Data: {data}");
+            }
+            catch (Exception ex)
+            {
+                _manageEventsUseCase.ConsoleErrorLog($"Error al enviar el evento: {message}. Data: {data}", ex);
+            }
+
+        }
+
+        #region Private Methods
+        private string GetLogEventName(MethodBase methodBase, string? callerMemberName)
+        {
+            Type declaringType = methodBase.DeclaringType!.DeclaringType ?? methodBase.DeclaringType;
+
+            return $"{_appSettings.Value.DomainName}.{declaringType?.Name}.{callerMemberName}";
+        }
+
+        #endregion Private Methods
+    }
+}

@@ -1,0 +1,14 @@
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\bin\Debug\net7.0\POS.Domain.deps.json
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\bin\Debug\net7.0\POS.Domain.runtimeconfig.json
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\bin\Debug\net7.0\POS.Domain.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\bin\Debug\net7.0\POS.Domain.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\obj\Debug\net7.0\POS.Domain.csproj.AssemblyReference.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\obj\Debug\net7.0\POS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\obj\Debug\net7.0\POS.Domain.AssemblyInfoInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\obj\Debug\net7.0\POS.Domain.AssemblyInfo.cs
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\obj\Debug\net7.0\POS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\obj\Debug\net7.0\POS.Domain.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\obj\Debug\net7.0\refint\POS.Domain.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\obj\Debug\net7.0\POS.Domain.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\obj\Debug\net7.0\POS.Domain.genruntimeconfig.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Domain\obj\Debug\net7.0\ref\POS.Domain.dll

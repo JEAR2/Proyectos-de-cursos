@@ -1,0 +1,12 @@
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Utilities\bin\Debug\net6.0\POS.Utilities.deps.json
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Utilities\bin\Debug\net6.0\POS.Utilities.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Utilities\bin\Debug\net6.0\POS.Utilities.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Utilities\obj\Debug\net6.0\POS.Utilities.csproj.AssemblyReference.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Utilities\obj\Debug\net6.0\POS.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Utilities\obj\Debug\net6.0\POS.Utilities.AssemblyInfoInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Utilities\obj\Debug\net6.0\POS.Utilities.AssemblyInfo.cs
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Utilities\obj\Debug\net6.0\POS.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Utilities\obj\Debug\net6.0\POS.Utilities.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Utilities\obj\Debug\net6.0\refint\POS.Utilities.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Utilities\obj\Debug\net6.0\POS.Utilities.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Utilities\obj\Debug\net6.0\ref\POS.Utilities.dll

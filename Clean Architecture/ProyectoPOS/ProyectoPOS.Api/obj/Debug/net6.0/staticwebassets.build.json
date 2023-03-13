@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eVlln+G2wxPtIvhZ2xprOzMOCzyFziNoLcgct8ZNhPQ=",
+  "Source": "ProyectoPOS.Api",
+  "BasePath": "_content/ProyectoPOS.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

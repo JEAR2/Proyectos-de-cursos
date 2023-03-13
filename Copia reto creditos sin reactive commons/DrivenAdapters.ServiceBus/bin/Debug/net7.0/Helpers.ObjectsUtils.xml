@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Helpers.ObjectsUtils</name>
+    </assembly>
+    <members>
+        <member name="T:Helpers.ObjectsUtils.ApplicationSettings.SettingInstanciaRedis">
+            <summary>
+            SettingInstanciaRedis
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ApplicationSettings.SettingInstanciaRedis.Nombre">
+            <summary>
+            Gets or sets the nombre.
+            </summary>
+            <value>
+            The nombre.
+            </value>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ApplicationSettings.SettingInstanciaRedis.Instancia">
+            <summary>
+            Gets or sets the instancia.
+            </summary>
+            <value>
+            The instancia.
+            </value>
+        </member>
+        <member name="T:Helpers.ObjectsUtils.ApplicationSettings.ValidationSettings">
+            <summary>
+            ValidationSettings
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ApplicationSettings.ValidationSettings.TipoContratoExpression">
+            <summary>
+            TipoContratoExpression
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ApplicationSettings.ValidationSettings.NombreExpression">
+            <summary>
+            NombreExpression
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ApplicationSettings.ValidationSettings.DescripcionExpression">
+            <summary>
+            DescripcionExpression
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ApplicationSettings.ValidationSettings.FechaExpression">
+            <summary>
+            FechaExpression
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ApplicationSettings.ValidationSettings.RutaExpression">
+            <summary>
+            RutaExpression
+            </summary>
+        </member>
+        <member name="T:Helpers.ObjectsUtils.ConfiguradorAppSettings">
+            <summary>
+            ConfiguradorAppSettings
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.AppId">
+            <summary>
+            AppId
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.AppSecret">
+            <summary>
+            AppSecret
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.DomainName">
+            <summary>
+            Nombre del dominio
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.MongoDBConnection">
+            <summary>
+            MongoDBConnection
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.DefaultCountry">
+            <summary>
+            Pais por defecto
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.Database">
+            <summary>
+            Database
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.StorageConnection">
+            <summary>
+            StorageConnection
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.StorageContainerName">
+            <summary>
+            StorageContainerName
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.RedisCacheConnectionString">
+            <summary>
+            RedisCacheConnectionString
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.HealthChecksEndPoint">
+            <summary>
+            EndPoint de HealthChecks
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.TopicoCreditos">
+            <summary>
+            Tópico créditos
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.ColaNotificacionAsignacionCredito">
+            <summary>
+            Cola créditos
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.Validation">
+            <summary>
+            Validation
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ConfiguradorAppSettings.InstanciasRedis">
+            <summary>
+            Gets or sets the instancias redis.
+            </summary>
+            <value>
+            The instancias redis.
+            </value>
+        </member>
+        <member name="T:Helpers.ObjectsUtils.EnvironmentHelper">
+            <summary>
+            EnvironmentHelper
+            </summary>
+        </member>
+        <member name="M:Helpers.ObjectsUtils.EnvironmentHelper.GetCountryOrDefault(System.String)">
+            <summary>
+              GetCountryOrDefault
+            </summary>
+            <param name="defaultCountry"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Helpers.ObjectsUtils.EnvironmentHelper.GetSubDomainOrDefault(System.String)">
+            <summary>
+              GetSubDomainOrDefault
+            </summary>
+            <param name="defaultSubDomain"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Helpers.ObjectsUtils.EnvironmentHelper.GetVariable(System.String)">
+            <summary>
+              GetVariable
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Helpers.ObjectsUtils.Extensions.EnumeratorExtensions">
+            <summary>
+            EnumeratorExtensions
+            </summary>
+        </member>
+        <member name="M:Helpers.ObjectsUtils.Extensions.EnumeratorExtensions.GetDescription``1(``0)">
+            <summary>
+            Gets the description.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="enumeration">The enumeration.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Helpers.ObjectsUtils.Extensions.EnumeratorExtensions.ToEnum``1(System.String)">
+            <summary>
+              Converts to enum.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="value">value.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Helpers.ObjectsUtils.ResponseObjects.ResponseContent">
+            <summary>
+            ResponseContent
+            </summary>
+        </member>
+        <member name="M:Helpers.ObjectsUtils.ResponseObjects.ResponseContent.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Helpers.ObjectsUtils.ResponseObjects.ResponseContent"/> class.
+            </summary>
+        </member>
+        <member name="M:Helpers.ObjectsUtils.ResponseObjects.ResponseContent.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Helpers.ObjectsUtils.ResponseObjects.ResponseContent"/> class.
+            </summary>
+            <param name="msg">The MSG.</param>
+            <param name="code">The code.</param>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ResponseObjects.ResponseContent.Message">
+            <summary>
+            Gets or sets the message.
+            </summary>
+            <value>
+            The message.
+            </value>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ResponseObjects.ResponseContent.Code">
+            <summary>
+            Gets or sets the code.
+            </summary>
+            <value>
+            The code.
+            </value>
+        </member>
+        <member name="T:Helpers.ObjectsUtils.ResponseObjects.ResponseError">
+            <summary>
+            ResponseError
+            </summary>
+        </member>
+        <member name="M:Helpers.ObjectsUtils.ResponseObjects.ResponseError.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Helpers.ObjectsUtils.ResponseObjects.ResponseError"/> class.
+            </summary>
+        </member>
+        <member name="M:Helpers.ObjectsUtils.ResponseObjects.ResponseError.#ctor(System.Collections.Generic.List{Helpers.ObjectsUtils.ResponseObjects.ResponseContent})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Helpers.ObjectsUtils.ResponseObjects.ResponseError"/> class.
+            </summary>
+            <param name="errors">The errors.</param>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.ResponseObjects.ResponseError.Errors">
+            <summary>
+            Gets or sets the errors.
+            </summary>
+            <value>
+            The errors.
+            </value>
+        </member>
+        <member name="T:Helpers.ObjectsUtils.Setting.AzureKeyVaultConfig">
+            <summary>
+            Configuration properties for azure key vault service
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.Setting.AzureKeyVaultConfig.TenantId">
+            <summary>
+              Retorna o asigna el/la tenant Id.
+            </summary>
+            <value>Tenant Id.</value>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.Setting.AzureKeyVaultConfig.KeyVault">
+            <summary>
+              Retorna o asigna el/la key vault.
+            </summary>
+            <value>Key vault.</value>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.Setting.AzureKeyVaultConfig.AppId">
+            <summary>
+              Retorna o asigna el/la application Id.
+            </summary>
+            <value>Application Id.</value>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.Setting.AzureKeyVaultConfig.AppSecret">
+            <summary>
+              Retorna o asigna el/la application secret.
+            </summary>
+            <value>Application secret.</value>
+        </member>
+        <member name="T:Helpers.ObjectsUtils.Setting.Secrets">
+            <summary>
+            Secrets
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.Setting.Secrets.MongoConnection">
+            <summary>
+            Retorna o asigna el/la sql connection.
+            </summary>
+            <value>Conexión a mongo.</value>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.Setting.Secrets.StorageConnection">
+            <summary>
+            Retorna o asigna la conexion al blobstorage
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.Setting.Secrets.RedisConnection">
+            <summary>
+            Retorna o asigna la conexion a redis cache
+            </summary>
+        </member>
+        <member name="P:Helpers.ObjectsUtils.Setting.Secrets.ServicesBusConnection">
+            <summary>
+            Retorna o asigna la conexión a services bus
+            </summary>
+        </member>
+    </members>
+</doc>

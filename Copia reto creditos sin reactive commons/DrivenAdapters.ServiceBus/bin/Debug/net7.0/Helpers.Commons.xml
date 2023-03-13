@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Helpers.Commons</name>
+    </assembly>
+    <members>
+        <member name="T:Helpers.Commons.Exceptions.TipoExcepcionNegocio">
+            <summary>
+            ResponseError
+            </summary>
+        </member>
+        <member name="F:Helpers.Commons.Exceptions.TipoExcepcionNegocio.ExceptionNoControlada">
+            <summary>
+            Tipo de exception no controlada
+            </summary>
+        </member>
+        <member name="F:Helpers.Commons.Exceptions.TipoExcepcionNegocio.CreditoNoValido">
+            <summary>
+            Los datos del crédito no llegan
+            </summary>
+        </member>
+        <member name="F:Helpers.Commons.Exceptions.TipoExcepcionNegocio.ClienteNoValido">
+            <summary>
+            Los datos del cliente no llegan
+            </summary>
+        </member>
+    </members>
+</doc>

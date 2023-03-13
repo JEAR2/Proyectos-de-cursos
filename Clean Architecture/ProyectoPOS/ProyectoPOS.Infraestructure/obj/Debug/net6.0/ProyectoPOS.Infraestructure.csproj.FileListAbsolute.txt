@@ -1,0 +1,17 @@
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\bin\Debug\net6.0\ProyectoPOS.Infraestructure.deps.json
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\bin\Debug\net6.0\ProyectoPOS.Infraestructure.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\bin\Debug\net6.0\ProyectoPOS.Infraestructure.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\obj\Debug\net6.0\ProyectoPOS.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\obj\Debug\net6.0\ProyectoPOS.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\obj\Debug\net6.0\ProyectoPOS.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\obj\Debug\net6.0\ProyectoPOS.Infraestructure.AssemblyInfo.cs
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\obj\Debug\net6.0\ProyectoPOS.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\obj\Debug\net6.0\ProyectoPOS.Infraestructure.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\obj\Debug\net6.0\refint\ProyectoPOS.Infraestructure.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\obj\Debug\net6.0\ProyectoPOS.Infraestructure.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\obj\Debug\net6.0\ref\ProyectoPOS.Infraestructure.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\bin\Debug\net6.0\ProyectoPOS.Domain.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\bin\Debug\net6.0\ProyectoPOS.Utilities.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\bin\Debug\net6.0\ProyectoPOS.Domain.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\bin\Debug\net6.0\ProyectoPOS.Utilities.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Infraestructure\obj\Debug\net6.0\ProyectoPOS.Infraestructure.csproj.CopyComplete

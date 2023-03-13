@@ -1,0 +1,498 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\DrivenAdapters.ServiceBus\\DrivenAdapters.ServiceBus.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\DrivenAdapters.ServiceBus\\DrivenAdapters.ServiceBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\DrivenAdapters.ServiceBus\\DrivenAdapters.ServiceBus.csproj",
+        "projectName": "DrivenAdapters.ServiceBus",
+        "projectPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\DrivenAdapters.ServiceBus\\DrivenAdapters.ServiceBus.csproj",
+        "packagesPath": "C:\\Users\\john.acevedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\DrivenAdapters.ServiceBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\NuGet.Config",
+          "C:\\Users\\john.acevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://scpackages.azurewebsites.net/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://credinet-packages.azurewebsites.net/nuget": {},
+          "https://scpackages.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Domain\\Domain.UseCase\\Domain.UseCase.csproj": {
+                "projectPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Domain\\Domain.UseCase\\Domain.UseCase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Domain\\Domain.Model\\Domain.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Domain\\Domain.Model\\Domain.Model.csproj",
+        "projectName": "Domain.Model",
+        "projectPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Domain\\Domain.Model\\Domain.Model.csproj",
+        "packagesPath": "C:\\Users\\john.acevedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Domain\\Domain.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\NuGet.Config",
+          "C:\\Users\\john.acevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://scpackages.azurewebsites.net/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://credinet-packages.azurewebsites.net/nuget": {},
+          "https://scpackages.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Data": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.AzureKeyVault": {
+              "target": "Package",
+              "version": "[3.1.24, )"
+            },
+            "OpenTelemetry.Exporter.Console": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OpenTelemetry.Exporter.Zipkin": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0-rc9.6, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            },
+            "credinet-exception-middleware": {
+              "target": "Package",
+              "version": "[1.0.64211, )"
+            },
+            "credinet.comun.api.core3": {
+              "target": "Package",
+              "version": "[1.0.15912, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Domain\\Domain.UseCase\\Domain.UseCase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Domain\\Domain.UseCase\\Domain.UseCase.csproj",
+        "projectName": "Domain.UseCase",
+        "projectPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Domain\\Domain.UseCase\\Domain.UseCase.csproj",
+        "packagesPath": "C:\\Users\\john.acevedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Domain\\Domain.UseCase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\NuGet.Config",
+          "C:\\Users\\john.acevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://scpackages.azurewebsites.net/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://credinet-packages.azurewebsites.net/nuget": {},
+          "https://scpackages.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Domain\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Domain\\Domain.Model\\Domain.Model.csproj"
+              },
+              "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Infrastructure\\Helpers\\Helpers.Commons\\Helpers.Commons.csproj": {
+                "projectPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Infrastructure\\Helpers\\Helpers.Commons\\Helpers.Commons.csproj"
+              },
+              "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Infrastructure\\Helpers\\Helpers.ObjectsUtils\\Helpers.ObjectsUtils.csproj": {
+                "projectPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Infrastructure\\Helpers\\Helpers.ObjectsUtils\\Helpers.ObjectsUtils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Data": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.AzureKeyVault": {
+              "target": "Package",
+              "version": "[3.1.24, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "OpenTelemetry.Exporter.Console": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OpenTelemetry.Exporter.Zipkin": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0-rc9.6, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            },
+            "credinet-exception-middleware": {
+              "target": "Package",
+              "version": "[1.0.64211, )"
+            },
+            "credinet.comun.api.core3": {
+              "target": "Package",
+              "version": "[1.0.15912, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Infrastructure\\Helpers\\Helpers.Commons\\Helpers.Commons.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Infrastructure\\Helpers\\Helpers.Commons\\Helpers.Commons.csproj",
+        "projectName": "Helpers.Commons",
+        "projectPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Infrastructure\\Helpers\\Helpers.Commons\\Helpers.Commons.csproj",
+        "packagesPath": "C:\\Users\\john.acevedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Infrastructure\\Helpers\\Helpers.Commons\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\NuGet.Config",
+          "C:\\Users\\john.acevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://scpackages.azurewebsites.net/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://credinet-packages.azurewebsites.net/nuget": {},
+          "https://scpackages.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Data": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.AzureKeyVault": {
+              "target": "Package",
+              "version": "[3.1.24, )"
+            },
+            "OpenTelemetry.Exporter.Console": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OpenTelemetry.Exporter.Zipkin": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0-rc9.6, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            },
+            "credinet-exception-middleware": {
+              "target": "Package",
+              "version": "[1.0.64211, )"
+            },
+            "credinet.comun.api.core3": {
+              "target": "Package",
+              "version": "[1.0.15912, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Infrastructure\\Helpers\\Helpers.ObjectsUtils\\Helpers.ObjectsUtils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Infrastructure\\Helpers\\Helpers.ObjectsUtils\\Helpers.ObjectsUtils.csproj",
+        "projectName": "Helpers.ObjectsUtils",
+        "projectPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Infrastructure\\Helpers\\Helpers.ObjectsUtils\\Helpers.ObjectsUtils.csproj",
+        "packagesPath": "C:\\Users\\john.acevedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\RetoCreditos\\src\\Infrastructure\\Helpers\\Helpers.ObjectsUtils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\john.acevedo\\cursos\\DotNet\\APIs\\RetoCreditos\\NuGet.Config",
+          "C:\\Users\\john.acevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://scpackages.azurewebsites.net/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://credinet-packages.azurewebsites.net/nuget": {},
+          "https://scpackages.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Data": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.AzureKeyVault": {
+              "target": "Package",
+              "version": "[3.1.24, )"
+            },
+            "OpenTelemetry.Exporter.Console": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OpenTelemetry.Exporter.Zipkin": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0-rc9.6, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            },
+            "credinet-exception-middleware": {
+              "target": "Package",
+              "version": "[1.0.64211, )"
+            },
+            "credinet.comun.api.core3": {
+              "target": "Package",
+              "version": "[1.0.15912, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

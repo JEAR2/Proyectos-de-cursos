@@ -1,0 +1,5 @@
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net6.0\POS.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net6.0\POS.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net6.0\POS.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net6.0\POS.Infraestructure.AssemblyInfo.cs
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Infraestructure\obj\Debug\net6.0\POS.Infraestructure.csproj.CoreCompileInputs.cache

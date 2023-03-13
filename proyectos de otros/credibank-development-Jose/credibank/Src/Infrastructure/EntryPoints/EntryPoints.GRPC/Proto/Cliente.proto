@@ -1,0 +1,90 @@
+﻿syntax="proto3";
+
+package clientes;
+
+import "google/protobuf/any.proto";
+
+option csharp_namespace = "EntryPoints.GRPC.Protos";
+
+// Requests
+message CrearClienteRequest {
+	string nombre = 1;
+    string apellido = 2;
+    string correo_electronico = 3;
+    string documento_de_identidad = 4;
+    string numero_de_celular = 5;
+}
+
+message SolicitarCreditoRequest {
+	float monto = 1;
+    int32 plazo_en_meses = 2;
+    string fecha_de_solicitud = 3;
+    string documento_de_identidad = 4;
+}
+
+message PagarCuotaRequest {
+	int32 cuotas_a_cancelar = 1;
+    string fecha_de_cancelacion = 2;
+    string documento_de_identidad = 3;
+    string id_del_credito = 4;
+}
+
+
+// Responses
+message StandardResponse {
+    google.protobuf.Any data = 1;
+    bool error = 2;
+    string message = 3;
+}
+
+message Cliente {
+    string id = 1;
+    string nombre = 2;
+    string apellido = 3;
+    string correo_electronico = 4;
+    string documento_de_identidad = 5;
+    string numero_de_celular = 6;
+    repeated Credito creditos = 7;
+}
+
+message Credito {
+    string id = 1;
+    float monto = 2;
+    EstadosDeCredito estado = 3;
+    int32 plazo_en_meses = 4;
+    float monto_total_de_intereses = 5;
+    float monto_por_cuota = 6;
+    int32 cuotas_restantes = 7;
+    string fecha_de_solicitud  = 8;
+    optional string fecha_de_cancelacion = 9;
+    repeated Pago pagos_realizados = 10;
+}
+
+message Pago {
+    string id = 1;
+    float monto = 2;
+    int32 cuotas_a_cancelar = 3;
+    string fecha_de_cancelacion = 4;
+}
+
+// Modelos de ayuda
+enum EstadosDeCredito {
+    EN_PROCESAMIENTO = 0;
+    APROBADO = 1;
+    RECHAZADO = 2;
+    EN_VIGENCIA = 3;
+    CANCELADO = 4;
+}
+
+message DocumentoDeIdentidad {
+    string documento_de_identidad = 1;
+}
+
+// Servicios
+service ServicioDeClientes {
+    rpc CrearCliente(CrearClienteRequest) returns (StandardResponse);
+    rpc SolicitarCredito(SolicitarCreditoRequest) returns (StandardResponse);
+    rpc PagarCuota(PagarCuotaRequest) returns (StandardResponse);
+
+    rpc ObtenerClientePorDocumentoDeIdentidad(DocumentoDeIdentidad) returns (StandardResponse);
+}

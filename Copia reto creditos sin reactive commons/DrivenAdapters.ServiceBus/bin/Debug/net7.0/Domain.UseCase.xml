@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Domain.UseCase</name>
+    </assembly>
+    <members>
+        <member name="T:Domain.UseCase.Clientes.ClienteUseCase">
+            <summary>
+            Clase ClienteUseCase
+            </summary>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.ClienteUseCase.#ctor(Domain.Model.Entities.Gateway.IClienteRepository,Domain.Model.Entities.Gateway.ICreditoRepository,Microsoft.Extensions.Options.IOptions{Helpers.ObjectsUtils.ConfiguradorAppSettings})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="clienteRepository"></param>
+            <param name="creditoRepository"></param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Domain.UseCase.Clientes.ClienteUseCase.CrearCliente(Domain.Model.Entities.Cliente)" -->
+        <member name="M:Domain.UseCase.Clientes.ClienteUseCase.ObtenerClientePorId(System.String)">
+            <summary>
+            <see cref="M:Domain.Model.Entities.Gateway.IClienteRepository.ObtenerClientePorId(System.String)"/>
+            </summary>
+            <param name="IdCliente"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.ClienteUseCase.ObtenerClientes">
+            <summary>
+            <see cref="M:Domain.Model.Entities.Gateway.IClienteRepository.ObtenerClientes"/>
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.ClienteUseCase.ActualizarCliente(System.String,Domain.Model.Entities.Cliente)">
+            <summary>
+            <see cref="M:Domain.Model.Entities.Gateway.IClienteRepository.ActualizarCliente(System.String,Domain.Model.Entities.Cliente)"/>
+            </summary>
+            <param name="IdCliente"></param>
+            <param name="cliente"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.ClienteUseCase.AsignarCredito(System.String,System.Decimal,System.String,System.Int32)">
+            <summary>
+            <see cref="M:Domain.UseCase.Clientes.IClienteUseCase.AsignarCredito(System.String,System.Decimal,System.String,System.Int32)"/>
+            </summary>
+            <param name="IdCliente"></param>
+            <param name="monto"></param>
+            <param name="concepto"></param>
+            <param name="cuotas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.ClienteUseCase.CancelarCuota(System.String,System.String)">
+            <summary>
+            <see cref="M:Domain.UseCase.Clientes.IClienteUseCase.CancelarCuota(System.String,System.String)"/>
+            </summary>
+            <param name="IdCliente"></param>
+            <param name="IdCredito"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.ClienteUseCase.ObtenerCreditosCliente(System.String)">
+            <summary>
+            <see cref="M:Domain.UseCase.Clientes.IClienteUseCase.ObtenerCreditosCliente(System.String)"/>
+            </summary>
+            <param name="IdCliente"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.ClienteUseCase.ObtenerCreditosPendientesCliente(System.String)">
+            <summary>
+            <see cref="M:Domain.UseCase.Clientes.IClienteUseCase.ObtenerCreditosPendientesCliente(System.String)"/>
+            </summary>
+            <param name="IdCliente"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Domain.UseCase.Clientes.IClienteUseCase">
+            <summary>
+            IClienteUseCase interface
+            </summary>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.IClienteUseCase.CrearCliente(Domain.Model.Entities.Cliente)">
+            <summary>
+            Registrar un nuevo Cliente
+            </summary>
+            <param name="cliente"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.IClienteUseCase.ObtenerClientes">
+            <summary>
+            Obtener todos los clientes registrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.IClienteUseCase.ObtenerClientePorId(System.String)">
+            <summary>
+            Obtener un cliente en especifico
+            </summary>
+            <param name="IdCliente"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.IClienteUseCase.ActualizarCliente(System.String,Domain.Model.Entities.Cliente)">
+            <summary>
+            Actualizar un Cliente respecto del Id
+            </summary>
+            <param name="IdCliente"></param>
+            <param name="cliente"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.IClienteUseCase.AsignarCredito(System.String,System.Decimal,System.String,System.Int32)">
+            <summary>
+            Asignar crédito a un cliente
+            </summary>
+            <param name="IdCliente"></param>
+            <param name="monto"></param>
+            <param name="concepto"></param>
+            <param name="cuotas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.IClienteUseCase.CancelarCuota(System.String,System.String)">
+            <summary>
+            Cancelar cuota crédito de un cliente
+            </summary>
+            <param name="IdCliente"></param>
+            <param name="IdCredito"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.IClienteUseCase.ObtenerCreditosCliente(System.String)">
+            <summary>
+            Obtener los créditos que pertenecen a un cliente en específico
+            </summary>
+            <param name="IdCliente"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Clientes.IClienteUseCase.ObtenerCreditosPendientesCliente(System.String)">
+            <summary>
+            Obtener los créditos que pertenecen a un cliente en específico
+            </summary>
+            <param name="IdCliente"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Domain.UseCase.Common.ManageEventsUseCase">
+            <summary>
+            Manage Events UseCase
+            </summary>
+        </member>
+        <member name="M:Domain.UseCase.Common.ManageEventsUseCase.#ctor(Microsoft.Extensions.Logging.ILogger{Domain.UseCase.Common.ManageEventsUseCase})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Domain.UseCase.Common.ManageEventsUseCase"/> class.
+            </summary>
+            <param name="logger">The logger.</param>
+        </member>
+        <member name="M:Domain.UseCase.Common.ManageEventsUseCase.ConsoleLogAsync(System.String,System.String,System.Object,System.Boolean)">
+            <summary>
+            <see cref="M:Domain.Model.Interfaces.IManageEventsUseCase.ConsoleLogAsync(System.String,System.String,System.Object,System.Boolean)"/>
+            </summary>
+            <param name="eventName"></param>
+            <param name="id"></param>
+            <param name="data"></param>
+            <param name="writeData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Common.ManageEventsUseCase.ConsoleErrorLog(System.String,System.Exception)">
+            <summary>
+            ConsoleErrorLog
+            </summary>
+            <param name="message"></param>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Common.ManageEventsUseCase.ConsoleTraceLog(System.String)">
+            <summary>
+            ConsoleTraceLog
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Domain.UseCase.Common.ManageEventsUseCase.ConsoleInfoLog(System.String,System.Object[])">
+            <summary>
+            <see cref="M:Domain.Model.Interfaces.IManageEventsUseCase.ConsoleInfoLog(System.String,System.Object[])"/>
+            </summary>
+            <param name="message"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Common.ManageEventsUseCase.ConsoleProcessLog(System.String,System.String,System.Object,System.Boolean,System.String)">
+            <summary>
+            <see cref="M:Domain.UseCase.Common.ManageEventsUseCase.ConsoleProcessLog(System.String,System.String,System.Object,System.Boolean,System.String)"/>
+            </summary>
+            <param name="eventName"></param>
+            <param name="id"></param>
+            <param name="data"></param>
+            <param name="writeData"></param>
+            <param name="callerMemberName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Domain.UseCase.Creditos.CreditoUseCase">
+            <summary>
+            Clase CreditoUseCase
+            </summary>
+        </member>
+        <member name="M:Domain.UseCase.Creditos.CreditoUseCase.#ctor(Domain.Model.Entities.Gateway.ICreditoRepository)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="creditoRepository"></param>
+        </member>
+        <member name="M:Domain.UseCase.Creditos.CreditoUseCase.CrearCredito(Domain.Model.Entities.Credito)">
+            <summary>
+            <see cref="M:Domain.Model.Entities.Gateway.ICreditoRepository.CrearCredito(Domain.Model.Entities.Credito)"/>
+            </summary>
+            <param name="credito"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Domain.UseCase.Creditos.CreditoUseCase.ObtenerCreditoPorId(System.String)">
+            <summary>
+            <see cref="M:Domain.Model.Entities.Gateway.ICreditoRepository.ObtenerCreditoPorId(System.String)"/>
+            </summary>
+            <param name="IdCredito"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Domain.UseCase.Creditos.CreditoUseCase.ActualizarCredito(System.String,Domain.Model.Entities.Credito)">
+            <summary>
+            <see cref="M:Domain.Model.Entities.Gateway.ICreditoRepository.ActualizarCredito(System.String,Domain.Model.Entities.Credito)"/>
+            </summary>
+            <param name="IdCredito"></param>
+            <param name="credito"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:Domain.UseCase.Creditos.ICreditoUseCase">
+            <summary>
+            ICreditoUseCase interface
+            </summary>
+        </member>
+        <member name="M:Domain.UseCase.Creditos.ICreditoUseCase.CrearCredito(Domain.Model.Entities.Credito)">
+            <summary>
+            Registrar un nuevo crédito
+            </summary>
+            <param name="credito"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Creditos.ICreditoUseCase.ObtenerCreditoPorId(System.String)">
+            <summary>
+            Obtener un crédito en especifico
+            </summary>
+            <param name="IdCredito"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.UseCase.Creditos.ICreditoUseCase.ActualizarCredito(System.String,Domain.Model.Entities.Credito)">
+            <summary>
+            Actualizar crédito respecto al Id
+            </summary>
+            <param name="IdCredito"></param>
+            <param name="credito"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Domain.Model.Interfaces.IManageEventsUseCase">
+            <summary>
+            IManageEventsUseCase
+            </summary>
+        </member>
+        <member name="M:Domain.Model.Interfaces.IManageEventsUseCase.ConsoleProcessLog(System.String,System.String,System.Object,System.Boolean,System.String)">
+            <summary>
+            Console error log
+            </summary>
+        </member>
+        <member name="M:Domain.Model.Interfaces.IManageEventsUseCase.ConsoleLogAsync(System.String,System.String,System.Object,System.Boolean)">
+            <summary>
+            Console log
+            </summary>
+            <param name="eventName"></param>
+            <param name="id"></param>
+            <param name="data"></param>
+            <param name="writeData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.Model.Interfaces.IManageEventsUseCase.ConsoleErrorLog(System.String,System.Exception)">
+            <summary>
+            Console error log
+            </summary>
+            <param name="message"></param>
+            <param name="exception"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Domain.Model.Interfaces.IManageEventsUseCase.ConsoleTraceLog(System.String)">
+            <summary>
+            ConsoleTraceLog
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Domain.Model.Interfaces.IManageEventsUseCase.ConsoleDebugLog(System.String)">
+            <summary>
+            ConsoleDebugLog
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Domain.Model.Interfaces.IManageEventsUseCase.ConsoleInfoLog(System.String,System.Object[])">
+            <summary>
+            Console information log
+            </summary>
+            <param name="message"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,14 @@
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\bin\Debug\net6.0\ProyectoPOS.Domain.deps.json
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\bin\Debug\net6.0\ProyectoPOS.Domain.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\bin\Debug\net6.0\ProyectoPOS.Domain.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\obj\Debug\net6.0\ProyectoPOS.Domain.csproj.AssemblyReference.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\obj\Debug\net6.0\ProyectoPOS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\obj\Debug\net6.0\ProyectoPOS.Domain.AssemblyInfoInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\obj\Debug\net6.0\ProyectoPOS.Domain.AssemblyInfo.cs
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\obj\Debug\net6.0\ProyectoPOS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\obj\Debug\net6.0\ProyectoPOS.Domain.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\obj\Debug\net6.0\refint\ProyectoPOS.Domain.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\obj\Debug\net6.0\ProyectoPOS.Domain.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\obj\Debug\net6.0\ref\ProyectoPOS.Domain.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\bin\Debug\net6.0\ProyectoPOS.Domain.runtimeconfig.json
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Domain\obj\Debug\net6.0\ProyectoPOS.Domain.genruntimeconfig.cache

@@ -1,0 +1,6 @@
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Api\obj\Debug\net6.0\POS.Api.csproj.AssemblyReference.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Api\obj\Debug\net6.0\POS.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Api\obj\Debug\net6.0\POS.Api.AssemblyInfoInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Api\obj\Debug\net6.0\POS.Api.AssemblyInfo.cs
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Api\obj\Debug\net6.0\POS.Api.csproj.CoreCompileInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\POS\POS.Api\obj\Debug\net6.0\POS.Api.MvcApplicationPartsAssemblyInfo.cache

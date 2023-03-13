@@ -1,0 +1,12 @@
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Utilities\bin\Debug\net6.0\ProyectoPOS.Utilities.deps.json
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Utilities\bin\Debug\net6.0\ProyectoPOS.Utilities.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Utilities\bin\Debug\net6.0\ProyectoPOS.Utilities.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Utilities\obj\Debug\net6.0\ProyectoPOS.Utilities.csproj.AssemblyReference.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Utilities\obj\Debug\net6.0\ProyectoPOS.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Utilities\obj\Debug\net6.0\ProyectoPOS.Utilities.AssemblyInfoInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Utilities\obj\Debug\net6.0\ProyectoPOS.Utilities.AssemblyInfo.cs
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Utilities\obj\Debug\net6.0\ProyectoPOS.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Utilities\obj\Debug\net6.0\ProyectoPOS.Utilities.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Utilities\obj\Debug\net6.0\refint\ProyectoPOS.Utilities.dll
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Utilities\obj\Debug\net6.0\ProyectoPOS.Utilities.pdb
+C:\Users\john.acevedo\cursos\DotNet\APIs\Clean Architecture\ProyectoPOS\ProyectoPOS.Utilities\obj\Debug\net6.0\ref\ProyectoPOS.Utilities.dll
